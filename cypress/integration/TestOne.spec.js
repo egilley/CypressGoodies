@@ -6,7 +6,7 @@
 // https://on.cypress.io/writing-first-test
 describe ('My first test',()=>{
     it('clicks the link "type"',() => {
-        cy.visit('https://blackdiamond.atlassian.net')
+        cy.visit('https://google.com')
         cy.contains('type').click()
     })
 })
