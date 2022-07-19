@@ -7,6 +7,6 @@
 describe ('My first test',()=>{
     it('clicks the link "type"',() => {
         cy.visit('https://www.google.com')
-        cy.contains('search').click()
+        cy.contains('Google Search').click()
     })
 })
